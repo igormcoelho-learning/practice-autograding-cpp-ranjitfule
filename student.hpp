@@ -13,7 +13,8 @@ int mul(int a, int b);
 
 int add(int a, int b)
 {
-   return a-b; // TODO: fix
+   std::cout << "Adding two numbers" << std::endl;
+   return a+b; // TODO: fix
 }
 
 // Exercise 2: implements function 'mul', that multiplies two numbers
